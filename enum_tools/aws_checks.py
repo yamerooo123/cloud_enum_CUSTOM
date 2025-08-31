@@ -12,7 +12,7 @@ BANNER = '''
 '''
 
 # Known S3 domain names
-S3_URL = 's3.amazonaws.com'
+S3_URL = 's3.amazonaws.com/?prefix=&delimeter=/'
 APPS_URL = 'awsapps.com'
 
 # Known AWS region names. This global will be used unless the user passes
